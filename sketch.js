@@ -54,7 +54,6 @@ function draw() {
         var x = crazyr * cos(a);
         var y = crazyr* sin(a);
         push();
-        // fill('pink')
         ellipse(x,y,4);
         pop();
       } else {
